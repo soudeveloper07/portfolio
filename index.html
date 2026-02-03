@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sourav | Web Designer & Developer</title>
+
+  <!-- SEO -->
+  <meta name="title" content="Sourav | Web Designer & Developer in Kolkata">
+  <meta name="description"
+    content="Sourav is a Web Designer & Developer from Kolkata specializing in modern UI, responsive websites, and frontend development.">
+  <meta name="keywords" content="Web Designer Kolkata, Web Developer India, Frontend Developer, UI Designer">
+  <meta name="author" content="Sourav">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sourav | Web Designer & Developer">
+  <meta property="og:description" content="Modern, fast, and responsive web development by Sourav.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta property="og:image" content="https://yourdomain.com/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#f98006",
+            "background-light": "#f8f7f5",
+            "background-dark": "#0a0a0a",
+          },
+          fontFamily: {
+            "display": ["Space Grotesk", "sans-serif"]
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+  <div id="particles-js"></div>
+  <style>
+    .neon-glow {
+      box-shadow: 0 0 15px rgba(249, 128, 6, 0.3);
+    }
+
+    .glass-card {
+      background: rgba(24, 20, 17, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(249, 128, 6, 0.1);
+    }
+
+
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      background-color: #ff000000;
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 50%;
+      opacity: 0.9;
+      top: 0;
+      left: 0;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r17/Stats.min.js"></script>
+  <script>
+    /* ---- particles.js config ---- */
+
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 280,
+          "density": {
+            "enable": true,
+            "value_area": 1000
+          }
+        },
+        "color": {
+          "value": "#f97f06"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#f97f06"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#f97f06",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 140,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+
+  </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-white position-relative"
+  style="position: relative;">
+  <div class="flex min-h-screen relative overflow-x-hidden">
+    <!-- Sidebar Navigation -->
+    <aside class="fixed left-6 top-6 bottom-6 w-64 hidden lg:flex flex-col z-50">
+      <div
+        class="layout-content-container flex flex-col flex-1 glass-card rounded-xl p-6 justify-between border-primary/20">
+        <div class="flex flex-col gap-8">
+          <div class="flex gap-3 items-center">
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-12 border-2 border-primary neon-glow"
+              data-alt="3D avatar of a web designer with neon hair"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDSPH954XfFzCah-P6WpMxdM-hM01W4ibKKJJJoQ5GmJ00UIGdjGhC2BLgPsCEXNtPYtoSnIJyOlJS0JdjFEuDw8zrA4kiKeqkNj7NcCVGaUvjoGnb7y-d-hS1vUlSS_ytXhrq1ZqfBPNJX_EEe9EloE51A8MNlG4mCTdqFifWz9n-7YPK74wTjRVTLKkkiUrUagYdonTLkflYQM75Kuw5wu81KqWRD5wPC5B01qGB6kf8kpqXdO7xpkJOATmcQxfFdnGwJTffaOw");'>
+            </div>
+            <div class="flex flex-col">
+              <h1 class="text-white text-base font-bold leading-none mb-1"> Hi, I'm Sourav</h1>
+              <p class="text-primary text-xs font-medium tracking-wider uppercase">Web Designer</p>
+            </div>
+          </div>
+          <nav class="flex flex-col gap-3">
+            <a class="flex items-center gap-3 px-4 py-3 rounded-lg bg-primary/10 text-primary border border-primary/20"
+              href="#home">
+              <span class="material-symbols-outlined text-[24px]">home</span>
+              <p class="text-sm font-bold">Home</p>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:text-white hover:bg-white/5 transition-all"
+              href="#works">
+              <span class="material-symbols-outlined text-[24px]">work</span>
+              <p class="text-sm font-medium">Works</p>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:text-white hover:bg-white/5 transition-all"
+              href="#services">
+              <span class="material-symbols-outlined text-[24px]">category</span>
+              <p class="text-sm font-medium">Services</p>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:text-white hover:bg-white/5 transition-all"
+              href="#about">
+              <span class="material-symbols-outlined text-[24px]">person</span>
+              <p class="text-sm font-medium">About</p>
+            </a>
+            <a class="flex items-center gap-3 px-4 py-3 rounded-lg text-white/70 hover:text-white hover:bg-white/5 transition-all"
+              href="#contact">
+              <span class="material-symbols-outlined text-[24px]">alternate_email</span>
+              <p class="text-sm font-medium">Contact</p>
+            </a>
+          </nav>
+        </div>
+        <button
+          class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-4 bg-primary text-background-dark text-sm font-bold leading-normal tracking-wide transition-transform hover:scale-105 neon-glow">
+          <span class="material-symbols-outlined mr-2">download</span>
+          <span class="truncate">Download CV</span>
+        </button>
+      </div>
+    </aside>
+    <!-- Main Content -->
+    <main class="flex-1 lg:ml-80 px-6 py-6 lg:px-12">
+      <!-- Hero Section -->
+      <section class="flex flex-col mb-20 pt-10" id="home">
+        <div class="@container">
+          <div class="flex flex-col gap-8 px-0 py-10 lg:flex-row items-center">
+            <div
+              class="w-full bg-center bg-no-repeat aspect-square max-w-[500px] bg-cover rounded-2xl relative border border-primary/10"
+              data-alt="Futuristic 3D floating digital asset with orange neon lights"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB24kc5asetQ0XAKF5QhnVkx9AOhaJlBHfEdJJQpoG6dmY2aA-90BRqu3NYD_byt8daL6Dr1DUv1P7Z3gUXg1gc8cDasYsie2zMc15C9UDEPovNbT6ljfgKjLzmpHEUn8ZypQ41_cq7_Z3qmN7851O8e0gyGAigyO3WERFnsmDmEsnCgSHN0njMkR9WZzeJ71F9UniOd_goJGRBeFefdIL34xSQ_OZLI_BADsL3xhZHGPHd931GiwVK-6YQdR8jR71U6tqXrVDNkg");'>
+              <div class="absolute inset-0 bg-gradient-to-t from-background-dark/80 to-transparent"></div>
+            </div>
+            <div class="flex flex-col gap-8 lg:max-w-[50%] lg:justify-center">
+              <div class="flex flex-col gap-4 text-left">
+                <div
+                  class="px-3 py-1 bg-primary/20 text-primary border border-primary/30 rounded-full w-fit text-xs font-bold tracking-widest uppercase">
+                  Available for work</div>
+                <h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] @[480px]:text-7xl">
+                  Hi, I'm <span class="text-primary italic">Sourav</span>
+                </h1>
+                <h2 class="text-white/60 text-lg font-normal leading-relaxed max-w-md">
+                  Web Designer & Developer from Kolkata, crafting modern, fast, and responsive websites with clean UI.
+                </h2>
+              </div>
+              <div class="flex gap-4">
+                <button
+                  class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-lg h-14 px-6 bg-primary text-background-dark text-base font-bold hover:brightness-110 transition-all neon-glow">
+                  <span> Hire Me</span>
+                </button>
+                <button
+                  class="flex items-center justify-center p-4 border border-white/10 rounded-lg text-white hover:bg-white/5 transition-all"
+                  href="assets/Sourav-Resume.pdf" download>
+                  <span class="material-symbols-outlined"> Download Resume</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Selected Works Section -->
+      <section class="mb-20" id="works" style="opacity: 0.3;">
+        <div class="flex justify-between items-end px-4 pb-8">
+          <div class="flex flex-col gap-1">
+            <p class="text-primary text-sm font-bold uppercase tracking-widest">Portfolio</p>
+            <h2 class="text-white text-4xl font-bold leading-tight tracking-tight">Selected Works</h2>
+          </div>
+          <a class="text-white/50 hover:text-primary flex items-center gap-2 text-sm font-medium" href="#">
+            View all projects <span class="material-symbols-outlined text-sm">arrow_forward</span>
+          </a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
+          <div
+            class="group relative bg-cover bg-center flex flex-col gap-3 rounded-xl justify-end p-6 aspect-[16/10] overflow-hidden border border-white/5"
+            data-alt="Sleek interface of a Cyber Bank App with neon highlights"
+            style='background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAq-vN7QTJ4Bw7VCUtTUtW9S-9iWN0Y58qADxqWcYnsFvhjncvoL_Kmi7-UmvmamGRSGM63WuQK7dxi1WCbJQKatauhqG-eiyCLWGZUQaMIjpHm-8xjl1OJTfWFjWkPrMEN1OHEg7YQ0sbC52qm0zGJoM4cgKi5HdpFmvPqqTtku2Vh6xU04Y964E7dP32pmq3r6OqInDux3bXrosjhV8IEPNTQAo-tU889DQAm3ulfXAPoG4sxpO7M-3jrL2W9Z2a1ULnEwAjh_g");'>
+            <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <p class="text-primary text-xs font-bold uppercase mb-1">Fintech</p>
+              <h3 class="text-white text-2xl font-bold leading-tight">Cyber Bank App</h3>
+              <p class="text-white/60 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Next-gen banking with real-time 3D visualization.</p>
+            </div>
+            <div
+              class="absolute top-4 right-4 bg-primary text-background-dark p-2 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300">
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </div>
+          <div
+            class="group relative bg-cover bg-center flex flex-col gap-3 rounded-xl justify-end p-6 aspect-[16/10] overflow-hidden border border-white/5"
+            data-alt="Immersive VR Dashboard with holographic data panels"
+            style='background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUULs_cp-qYJCiQ-KMPA8xVx3S9MLGjPS-GtXIKsbBM2t0w7A36Y2BxzfI3cwA-RjmvoTzqnnPT-OdXfKtLv4FO9NJTd90fSvNuJOBZp-t0JgPN2dF_W_Mcvw4vF1P9Fscc2Y-pzYXrkwYVGOIw5cs9fdZdxOlDKDSDYlyZSzUx31I7FIKhcWSTUhCTNtkKmSaoAh3rhYjrtKSZIGyOqPhUKB2fZWUZ0U2SggixY3zPha7dCuqQ4N_apU8KNVGm7Qu7VSG6x_iXg");'>
+            <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <p class="text-primary text-xs font-bold uppercase mb-1">Metaverse</p>
+              <h3 class="text-white text-2xl font-bold leading-tight">VR Dashboard</h3>
+              <p class="text-white/60 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Intuitive data management for spatial computing.</p>
+            </div>
+            <div
+              class="absolute top-4 right-4 bg-primary text-background-dark p-2 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300">
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </div>
+          <div
+            class="group relative bg-cover bg-center flex flex-col gap-3 rounded-xl justify-end p-6 aspect-[16/10] overflow-hidden border border-white/5"
+            data-alt="Neon social media app layout with vibrant orange accents"
+            style='background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjmq7ZrF1s7SuUI-Kg74Rrm7MuJ7whcv-mSt6P5dfv_sPEM7v2Wz8FYXAj_WMtXjSU-fE-Yzd1Z1J_XwfD0V9PLW9M5ODHNYhhUHX7UYSWTyQ8l9_6ljm5hYDSZ7Q2hdNfD7cdGVErdZ1ii26Bg8_1WqJB77NxNAp_iN3iZvsZQy0eyO8e2un_llomK75a5yWIKF_kjG3l7aSrkCw33-sRblPHStL4YVP7n8V7RhrB3rB11auGoe01Cv3KjiRnoyuzV_DvTnJUrw");'>
+            <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <p class="text-primary text-xs font-bold uppercase mb-1">Social</p>
+              <h3 class="text-white text-2xl font-bold leading-tight">Neon Social</h3>
+              <p class="text-white/60 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Redefining connectivity through vibrant minimalism.</p>
+            </div>
+            <div
+              class="absolute top-4 right-4 bg-primary text-background-dark p-2 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300">
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </div>
+          <div
+            class="group relative bg-cover bg-center flex flex-col gap-3 rounded-xl justify-end p-6 aspect-[16/10] overflow-hidden border border-white/5"
+            data-alt="3D e-commerce shop with floating products"
+            style='background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.9) 0%, rgba(10, 10, 10, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbqQ0ZdNrqye0-IZN2MkJKTVpy2lr2nxm4A5U9xkvFJnJf_Ej--cNclkYfwF3mfAhAk-5CoR-fv355Z--w2CIiRhWwKpF5CJhLnylKQ0u2qN58ew52yk5rnJxWZxkAaqfs1xxr5SQvR8RyiLCzlq82cTPs1wZD-Rk-k_1A8ET5Sa_DkujXmUxyNj81lywlo2StR902vTagXjx4_bB7KXdN5C3P9xaoVz4YffNKs3tOVzzAX2a1c2GhzKoPEfhpAU3IHpqpJC0Hmw");'>
+            <div class="transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+              <p class="text-primary text-xs font-bold uppercase mb-1">Retail</p>
+              <h3 class="text-white text-2xl font-bold leading-tight">3D E-commerce</h3>
+              <p class="text-white/60 text-sm mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                Immersive shopping with interactive product renders.</p>
+            </div>
+            <div
+              class="absolute top-4 right-4 bg-primary text-background-dark p-2 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300">
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section -->
+      <section class="mb-20 px-4" id="contact">
+        <div class="flex flex-col gap-1 mb-10">
+          <p class="text-primary text-sm font-bold uppercase tracking-widest">Connect</p>
+          <h2 class="text-white text-4xl font-bold leading-tight tracking-tight">Get in Touch</h2>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Glassmorphism Contact Form -->
+          <div class="glass-card p-8 rounded-2xl">
+            <form class="flex flex-col gap-6">
+              <div class="flex flex-col gap-2">
+                <label class="text-white/70 text-sm font-medium ml-1">Full Name</label>
+                <input
+                  class="bg-white/5 border border-white/10 rounded-lg p-4 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
+                  placeholder="John Doe" type="text" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <label class="text-white/70 text-sm font-medium ml-1">Email Address</label>
+                <input
+                  class="bg-white/5 border border-white/10 rounded-lg p-4 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all"
+                  placeholder="john@example.com" type="email" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <label class="text-white/70 text-sm font-medium ml-1">Message</label>
+                <textarea
+                  class="bg-white/5 border border-white/10 rounded-lg p-4 text-white focus:outline-none focus:border-primary/50 focus:ring-1 focus:ring-primary/50 transition-all resize-none"
+                  placeholder="Tell me about your project..." rows="4"></textarea>
+              </div>
+              <button
+                class="bg-primary text-background-dark font-bold py-4 rounded-lg hover:brightness-110 transition-all neon-glow flex justify-center items-center gap-2 mt-2"
+                type="button">
+                <span>Send Message</span>
+                <span class="material-symbols-outlined text-[20px]">send</span>
+              </button>
+            </form>
+          </div>
+          <!-- Contact Info -->
+          <div class="flex flex-col justify-center gap-10">
+            <div class="flex flex-col gap-6">
+              <div class="flex items-start gap-4">
+                <div class="bg-primary/20 p-3 rounded-lg text-primary">
+                  <span class="material-symbols-outlined">mail</span>
+                </div>
+                <div>
+                  <p class="text-white/40 text-xs font-bold uppercase tracking-widest mb-1">Email Me</p>
+                  <p class="text-white text-lg font-medium">soudeveloper07@gmail.com</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="bg-primary/20 p-3 rounded-lg text-primary">
+                  <span class="material-symbols-outlined">location_on</span>
+                </div>
+                <div>
+                  <p class="text-white/40 text-xs font-bold uppercase tracking-widest mb-1">Based In</p>
+                  <p class="text-white text-lg font-medium">Kolkata, India</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="bg-primary/20 p-3 rounded-lg text-primary">
+                  <span class="material-symbols-outlined">call</span>
+                </div>
+                <div>
+                  <p class="text-white/40 text-xs font-bold uppercase tracking-widest mb-1">Call Me</p>
+                  <p class="text-white text-lg font-medium">+91 85093 65104</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col gap-4">
+              <p class="text-white font-bold text-xl">Follow My Journey</p>
+              <div class="flex gap-3">
+                <a class="w-12 h-12 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-primary/10 transition-all"
+                  href="#">
+                  <span class="material-symbols-outlined">share</span>
+                </a>
+                <a class="w-12 h-12 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-primary/10 transition-all"
+                  href="#">
+                  <span class="material-symbols-outlined">public</span>
+                </a>
+                <a class="w-12 h-12 flex items-center justify-center rounded-lg bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-primary/10 transition-all"
+                  href="#">
+                  <span class="material-symbols-outlined">code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="mt-20 py-10 border-t border-white/5 flex flex-col items-center gap-6">
+        <div class="flex gap-2 items-center">
+          <div class="size-2 bg-primary rounded-full animate-pulse"></div>
+          <p class="text-white/40 text-sm font-medium uppercase tracking-[0.2em]">Designed with Sou</p>
+        </div>
+        <p class="text-white/20 text-xs"> © 2024 Sourav. All Rights Reserved.</p>
+      </footer>
+    </main>
+  </div>
+  <!-- Decorative light streaks (Background) -->
+  <div
+    class="fixed top-[-10%] right-[-10%] w-[40%] h-[40%] bg-primary/10 blur-[120px] rounded-full -z-10 pointer-events-none">
+  </div>
+  <div
+    class="fixed bottom-[-5%] left-[-5%] w-[30%] h-[30%] bg-primary/5 blur-[100px] rounded-full -z-10 pointer-events-none">
+  </div>
+
+</body>
+
+</html>
